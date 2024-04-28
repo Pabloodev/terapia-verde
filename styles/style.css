@@ -1,1 +1,186 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(238, 248, 227);
+}
+
+#barra-inicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Poppins;
+    box-shadow: 0px 11px 12px -15px rgba(127,255,136,1);
+    margin-left: 30px;
+    margin-right: 70px;
+    height: 90px;
+}
+
+
+
+#barra-inicio img {
+    width: 90px;
+    height: 90px;
+    text-decoration: underline;
+    text-align: center;
+    line-height: 55px;
+    padding: 20px;
+}
+#barra-incio #navegacao ul {
+    margin: 14px;
+}
+#barra-inicio #navegacao ul li {
+    display: inline;
+    padding: 20px;
+
+}
+
+#barra-inicio #navegacao li a {
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 10px;
+    transition: 0.2s;
+    text-decoration: none;
+    color: rgb(15, 58, 32);
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+#barra-inicio #navegacao li a:hover {
+    color: greenyellow;
+}
+
+#logo-texto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo-texto a {
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    transition: 0.2s;
+    text-decoration: none;
+    color: rgb(15, 58, 32);
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+#logo-texto a:hover {
+    color: greenyellow;
+}
+
+#inicial {
+    display: flex;
+    min-height: calc(100vh - 125px);
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+#inicial #informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    letter-spacing: 2px;
+    padding: 0 15px;
+    max-width: 50%;
+    font-family: Poppins
+}
+
+#inicial #informacoes h1 {
+    margin-left: 100px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+
+
+#inicial #informacoes p {
+    margin-left: 100px;
+    font-size: 19px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+#inicial a{
+    margin-top: 50px;
+    margin-left: 300px;
+    background-color: hsl(145, 100%, 50%);
+    text-decoration: none;
+    color:black;
+    width: 120px;
+    padding: 15px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+#inicial a:hover {
+    background-color: hsl(145, 98%, 38%);;
+}
+
+#inicial img {
+    width: 400px;
+    padding: 20px;
+    margin-right: 80px;
+}
+
+#produtos-geral {
+    margin-top: 100px;
+    background-color: #d1fcde;
+    font-family: "Open Sans", sans-serif;
+    word-break: break-all;
+    padding: 20px
+}
+
+#produtos-geral ul li img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+#produtos-geral h1{
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+#produtos-geral h2 {
+    margin-top: 10px;
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+
+#produtos-geral a {
+    background-color: rgb(47, 255, 92);
+    text-decoration: none;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#produtos-geral ul li {
+    background-color: white;
+    width: 200px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    list-style: none;
+    word-break: break-all;
+}
+
+#produtos-lista {
+    display: flex;
+    flex-wrap: wrap;
+}
