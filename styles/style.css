@@ -111,8 +111,8 @@ body {
 }
 
 #inicial a{
-    margin-top: 50px;
-    margin-left: 300px;
+    margin: 100px;
+    margin-top: 100px;
     background-color: hsl(145, 100%, 50%);
     text-decoration: none;
     color:black;
@@ -130,13 +130,13 @@ body {
 }
 
 #inicial img {
-    width: 400px;
+    width: 450px;
     padding: 20px;
     margin-right: 80px;
 }
 
 #produtos-geral {
-    margin-top: 100px;
+    margin-top: 50px;
     background-color: #d1fcde;
     font-family: "Open Sans", sans-serif;
     word-break: break-all;
