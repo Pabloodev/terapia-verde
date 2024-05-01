@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background-color: rgb(238, 248, 227);
+    background-color: rgb(255, 255, 255);
 }
 
 #barra-inicio {
@@ -96,10 +96,12 @@ body {
 }
 
 #inicial #informacoes h1 {
+    margin-top: 100px;
     margin-left: 100px;
     font-size: 30px;
     margin-bottom: 20px;
     color: rgb(0, 0, 0);
+    font-weight: 400;
 }
 
 
@@ -130,7 +132,7 @@ body {
 }
 
 #inicial img {
-    width: 450px;
+    width: 400px;
     padding: 20px;
     margin-right: 80px;
 }

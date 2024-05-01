@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background-color: rgb(238, 248, 227);
+    background-color: rgb(255, 255, 255);
 }
 
 #barra-inicio {
@@ -76,3 +76,78 @@ body {
 #logo-texto a:hover {
     color: greenyellow;
 }
+
+#titulo {
+    font-family: Poppins;
+    text-align: center;
+    background-color: #82f0ae;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    border: 1px solid black;
+}
+
+#redes {
+    padding: 30px;
+    border: 1px solid black;
+}
+
+#redes h1 {
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#redes p {
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+#redes ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#redes ul li {
+    padding: 20px;
+    list-style-type: none;
+}
+
+#redes ul li a img {
+    width: 30px;
+}
+
+#redes #pass a img {
+    width: 40px;
+}
+
+#endereco {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    padding-top: 0px;
+    border: 1px solid black;
+}
+
+#endereco h1 {
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#endereco p {
+    margin-top: 36px;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+

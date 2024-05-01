@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background-color: rgb(238, 248, 227);
+    background-color: rgb(255, 255, 255);
 }
 
 #barra-inicio {
@@ -75,4 +75,49 @@ body {
 
 #logo-texto a:hover {
     color: greenyellow;
+}
+
+#titulo {
+    font-family: Poppins;
+    text-align: center;
+    background-color: #82f0ae;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+#missao {
+    text-align: center;
+    margin-top: 60px;
+}
+
+#missao h1 {
+    font-family: Poppins;
+    font-weight: 300;
+}
+
+#missao p {
+    font-family: sans-serif;
+    line-height: 22px;
+}
+
+#missao img {
+    margin: 40px;
+    width: 800px;
+    border: 1px solid #82f0ae;
+}
+
+#historia {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#historia h1 {
+    font-family: Poppins;
+    font-weight: 300;
+}
+
+#historia p {
+    font-family: sans-serif;
+    line-height: 22px;
 }
