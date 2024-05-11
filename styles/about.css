@@ -99,6 +99,9 @@ body {
 #missao p {
     font-family: sans-serif;
     line-height: 22px;
+    padding: 60px;
+    padding-bottom: 0;
+    padding-top: 20px;
 }
 
 #missao img {
@@ -120,4 +123,14 @@ body {
 #historia p {
     font-family: sans-serif;
     line-height: 22px;
+    padding: 60px;
+    padding-bottom: 0;
+    padding-top: 20px;
+}
+
+#historia #assinatura {
+    font-weight: 600;
+    font-size: 15px;
+    font-family: Poppins;
+    text-align: end;
 }

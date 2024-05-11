@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(236, 248, 234);
 }
 
 #barra-inicio {
@@ -83,6 +83,7 @@ body {
     align-items: center;
     gap: 50px;
     justify-content: space-between;
+    align-items: start;
 }
 
 #inicial #informacoes {
@@ -92,7 +93,8 @@ body {
     letter-spacing: 2px;
     padding: 0 15px;
     max-width: 50%;
-    font-family: Poppins
+    font-family: Poppins;
+    
 }
 
 #inicial #informacoes h1 {
@@ -104,6 +106,17 @@ body {
     font-weight: 400;
 }
 
+#inicial #informacoes h1 a {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+#inicial #informacoes h1 a:hover {
+    color: hsl(145, 100%, 50%);
+}
 
 #inicial #informacoes p {
     margin-left: 100px;
@@ -112,7 +125,7 @@ body {
     color: black;
 }
 
-#inicial a{
+#plantas {
     margin: 100px;
     margin-top: 100px;
     background-color: hsl(145, 100%, 50%);
@@ -127,14 +140,16 @@ body {
     transition: 0.3s;
 }
 
-#inicial a:hover {
+#plantas:hover {
     background-color: hsl(145, 98%, 38%);;
 }
 
 #inicial img {
-    width: 400px;
+    margin-top: 90px;
+    width: 500px;
     padding: 20px;
     margin-right: 80px;
+    border-radius: 30px;
 }
 
 #produtos-geral {
